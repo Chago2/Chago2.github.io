@@ -1,58 +1,184 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    
-    <title>Mi plantilla</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/docs/assets/style.css">
+    <link rel="icon" href="/docs/assets/Imagenes/Chago-Design-Logo-sin-eslogan.png">
+    <title>Chago Designer</title>
 </head>
-
 <body>
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree">
-                <h2 style="color: #ffffff; padding-top: 20px;">Mi curso de Git y Github</h2>
-            </div>
-    </div>
-    </div>
-
-
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://platzi.com/cursos/docker-fundamentos/'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Mi curso de Docker</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='http://aminespinoza.com'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mi sitio web</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.linkedin.com/in/aminespinoza/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Conecta en mi perfil de LinkedIn</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.instagram.com/aminespinoza10/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en Instagram</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.youtube.com/aminespinoza'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mira mi canal de Youtube</button>
-                </div>
-            </div>
-    </div>
-    </div>
-
-        <div class="text-center">
-            <a href="https://codepen.io/nightcl4w/pen/dEjreJ" style="color: #34312f;" target="_blank">Creado por OrderMerch</a>
+    <!--Section menu-->
+    <header class="navbar" id="navbar">
+        <div class="logo__name">
+            <img src="/docs/assets/Imagenes/Chago-Design-Logo-sin-eslogan.png" class="logo__img" alt="Logo Chago Desing">
+            <h2 class="titulo">Portfolio | Chago Designer</h2>
         </div>
+        <div class="section__menu">
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#formacion">Fomración</a></li> 
+                <li class="menu__list__item"><a href="#experiencia">Experiencia</a></li>
+                <li class="menu__list__item"><a href="#contacto"></a>Contacto</li>
+                <li class="menu__list__item2"><a href="#contacto">mauriciovaldesf@hotmail.com</a></li>
+            </ul>
+        </div>
+    </header>
 
+    <!--Section Bio-->
+    <section class="bio">
+        <img class="bio__img" src="/Docs/assets/Imagenes/WhatsApp Image 2023-10-05 at 20.32.40.jpeg" alt="Photo of Mauricio">
+        <div class="bio__info">
+            <h2 class="bio__first__text">Hola, soy Mauricio Valdés, diseñador gráfico con más de 14 años de experiencia y desarrollador Frontend en formación.</h2>
+            <h3 class="bio__second__text">A lo largo de mi trayectoria, he trabajado en diversas áreas del diseño y actualmente estoy ampliando mis conocimientos en desarrollo web y programación con el objetivo de convertirme en desarrollador Full Stack.</h3>
+        </div>
+    </section>    
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
+    <!--Section About me-->
+    <section class="sobre__mi" id="sobre-mi">
+        <h2 class="title">Sobre mi</h2>
+        <p class="first__text">Tengo 14 años de experiencia en distintos sectores empresariales, desde áreas administrativas y operativas hasta funciones creativas y gerenciales. Durante mi carrera, he ocupado puestos de alta responsabilidad, lo que me ha permitido desarrollar habilidades técnicas y personales clave para desempeñarme con excelencia.</p>
+        <p class="second__text">Me considero una persona comprometida, comunicativa y con pensamiento crítico. Soy fiable, motivado y poseo una gran capacidad para resolver problemas de manera efectiva. Mi adaptabilidad y habilidad para trabajar bajo presión me han permitido sobresalir en diversos entornos. Me apasionan los retos, el aprendizaje continuo y la creación de sitios web dinámicos y visualmente atractivos. En el futuro, me gustaría desarrollar aplicaciones móviles y videojuegos.</p>
+    </section>
+
+    <!--Section Skills-->
+    <section class="skills" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="skill__content">
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/html-5.png" alt="Logo HTML">
+                <h4>HTML</h4>
+                <h6>Intermedio</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/css.png" alt="Logo CSS">
+                <h4>CSS</h4>
+                <h6>Intermedio</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/logo-js.png" alt="Logo JavaScript">
+                <h4>JavaScript</h4>
+                <h6>Básico</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/react.png" alt="Logo React.js ">
+                <h4>React</h4>
+                <h6>Básico</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/mysql.png" alt="Logo MySQL ">
+                <h4>MySQL</h4>
+                <h6>Básico</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/servidor-sql.png" alt="Logo SQL">
+                <h4>SQL</h4>
+                <h6>Básico</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/piton.png" alt="Logo Python">
+                <h4>Python</h4>
+                <h6>Básico</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/ilustrador.png" alt="Logo Illustrator ">
+                <h4>Illustrator</h4>
+                <h6>Avanzado</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/photoshop.png" alt="Logo Photoshop">
+                <h4>Photoshop</h4>
+                <h6>Avanzado</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/indesign.png" alt="Logo InDesign">
+                <h4>InDesign</h4>
+                <h6>Avanzado</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/estreno-profesional (1).png" alt="Logo Premier">
+                <h4>Premier</h4>
+                <h6>Intermedio</h6>
+            </div>
+            <div class="skill__box">
+                <img src="/docs/assets/Imagenes/despues-de-los-efectos.png" alt="Logo ">
+                <h4>After Effect</h4>
+                <h6>Básico</h6>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Formation-->
+    <section class="formation" id="formacion">
+        <h2 class="title">Formación Academica</h2>
+        <div class="formation__content">
+            <div class="formation__boxes">
+                <img src="/docs/assets/Imagenes/uvm.png" alt="Logo de UVM">
+                <h3>Licenciatura en Diseño Gráfico</h3>
+                <p>2015 - 2019 - UVM</p>
+            </div>
+            <div class="formation__boxes">
+                <img src="/docs/assets/Imagenes/udemy.png" alt="Logo de Udemy">
+                <h3>Aprende JavaScript, HTML5 y CSS3</h3>
+                <p>En curso - Udemy</p>
+            </div>
+            <div class="formation__boxes">
+                <img src="/docs/assets/Imagenes/alura_logo.png" alt="Logo de Alura Latam">
+                <h3>Formación en Desarrollo Front - End</h3>
+                <p>2023 - AluraLatam</p>
+            </div>
+            <div class="formation__boxes">
+                <img src="/docs/assets/Imagenes/Logo Platzi.png" alt="Logo Platzi">
+                <h3>Full Stack Developer con JavaScript</h3>
+                <h3>Fronted & Backend con JavaScript para Desarrollo Web</h3>
+                <p>2024 - Platzi (En curso)</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Desing Work Expirence-->
+
+    <section class="xp" id="xp">
+        <h3 class="xp__title">Experieni</h3>
+        <div class="xp__content">
+            <div class="xp__box">        
+                <div class="first__section">
+                    <img src="/Imagenes/Encriptador.png" alt="Challege of Alura Latan text Encoder">
+                </div>
+                <div class="second__section">
+                    <h4 class="box__title">Encriptador de texto</h4>
+                    <p class="info">Esta aplicación fue una prueba que realice para lograr entrar a al proyecto Oracle One de Alura Latam.</p>
+                    <p class="info">En esta aplicación nos solicitaron desarrollar un encriptador de texto, donde se pudieran encriptar y desencriptar texto con 5 reglás básicas.</p>
+                    <div class="butons__info">
+                        <button class="btn_1"><a href="#">Repositorio</a></button>
+                        <button class="btn_2"><a>Ver Demos</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="xp__box">
+                <div class="first__section">
+                    <img src="#" alt="#">
+                </div>
+                <div class="second__section">
+                    <h4 class="box__title">Proyecto 2</h4>
+                    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro iure nostrum deserunt animi architecto officia ipsa fugiat saepe expedita harum. Debitis vel quod consequuntur neque possimus molestias corporis! Quis, asperiores?</p>
+                    <p class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo nihil quia esse? Eveniet quidem explicabo consectetur natus exercitationem praesentium dolores corporis velit cum ad earum rem quaerat, in dignissimos corrupti.</p>
+                </div>
+            </div>
+        </div>     
+    </section>
+
+    <!--Design Professional Expirence-->
+
+    <section class="xp__desing">
+        <div class="xp__desing__content">
+            <div clss="xp__box">
+                <img src="#" alt="#">
+                <h4 class="xp__desing__title">Proyecto 1</h4>
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus alias ad animi nam voluptatum esse natus, commodi accusantium hic adipisci fugiat, aut ut? Saepe est voluptatum atque illo mollitia pariatur.</p>
+            </div>
+        </div>
+    </section>
 </body>
-
 </html>
